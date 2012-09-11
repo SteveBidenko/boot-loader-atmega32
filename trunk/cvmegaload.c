@@ -34,8 +34,8 @@ Chip header is included by cvmegaload.h from the project configuration
 #endif
 
 #include <stdio.h>
-#define BAUDRATE 115200
-//#define BAUDRATE 9600
+//#define BAUDRATE 115200
+#define BAUDRATE 9600
 register unsigned int Pagedata @2; //program data to be written from this and read back for checking
 register unsigned int PageAddress @4; //address of the page
 register unsigned int CurrentAddress @6; //address of the current data -  PageAddress + loop counter
