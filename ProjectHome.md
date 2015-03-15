@@ -1,0 +1,1 @@
+Boot a new HEX-file via serial port to controller memory
